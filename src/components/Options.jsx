@@ -1,6 +1,5 @@
 function Options({question, dispatch, answer}) {
   const hasAnswer = answer !== null;
-  console.log(question);
   return (
     <div className="options">
       {question.options.map((option, index) => (
